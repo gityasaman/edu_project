@@ -1,19 +1,5 @@
-<!doctype = html>
-<<html>
-<head>
+<?php 
+$btime = "20-12-16 15:30";
+var_dump( date("Y-M-d h:i:s", Time()));
 
-</head>
-
-<body>
-
-<form action = "login.php">
-<input name = "username" type ="text">
-
-<input name = "pasword" type = "pasword">
-<input name = "button" type = "submit" value = "submit">
-</form>
-</body>
-
-</html>
-
-
+?>
