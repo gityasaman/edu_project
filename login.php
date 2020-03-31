@@ -1,4 +1,4 @@
 <?php
-
-echo "hello";
+include 'util.php';
+upload(upfile, uploaded);
 ?>
